@@ -25,12 +25,13 @@ function Reset({setPlayerTwo, setPlayerOne}) {
 
 const styles = StyleSheet.create({
     btn: {
+        alignItems: "center",
         backgroundColor: '#069A8E',
         borderRadius: 10,
         borderColor: '#fff'
     },
     btnText: {
-        padding: '10%',
+        padding: '25%',
         color: '#ffffff',
     }
   });

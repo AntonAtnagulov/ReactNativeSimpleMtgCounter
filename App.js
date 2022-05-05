@@ -15,7 +15,7 @@ export default function App() {
     <View style={styles.container}>
       <PlayerOne playerOne={playerOne} setPlayerOne={setPlayerOne} />
       <View style={{flexDirection: "row", justifyContent: "space-evenly"}}>
-      <Dice/>
+      <Reset setPlayerOne={setPlayerOne} setPlayerTwo={setPlayerTwo}/>
       <DiceImg/>
       <Reset setPlayerOne={setPlayerOne} setPlayerTwo={setPlayerTwo}/>
       </View>

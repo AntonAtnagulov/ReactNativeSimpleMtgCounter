@@ -53,7 +53,7 @@ function PlayerTwo({playerTwo, setPlayerTwo}) {
 
 const styles = StyleSheet.create({
     counterBox: {
-        marginTop: "5%",
+        // marginTop: "5%",
     },
     counter: {
         fontSize: 90,
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
         color: '#a0e7f2',
     },
     container: {
-        marginTop: 10,
+        // marginTop: 10,
         alignItems: "stretch",
     },
     btnGroupBox: {

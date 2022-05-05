@@ -32,8 +32,10 @@ function DiceImg() {
     <TouchableOpacity onPress={() => randD6() }>
     <View className={styles.container}>
         <Animated.Image
+        width="150px"
+        height="150px"
         style={{transform: [{rotate: spin}] }}
-        source={require('../../assets/dice.png')} />
+        source={require('../../assets/dice1.png')} />
         <Text
         style={styles.diceValue}
         >
@@ -47,7 +49,7 @@ function DiceImg() {
 const styles = StyleSheet.create({
     container: {
         flex: 0.5,
-        width: 40,
+        width: 30,
         height: 40
     },
     img: {
@@ -56,9 +58,9 @@ const styles = StyleSheet.create({
         resizeMode: 'contain',
     },
     diceValue: {
-        color: "#fff",
+        color: "#005555",
         width: 50,
-        fontSize: 40,
+        fontSize: 35,
         fontWeight: "800",
         position: 'absolute',
         top: "35%",
